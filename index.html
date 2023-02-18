@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>QR CODE</title>
+    <script src="qrcode.js"></script>
+    <style>
+        #mais{display:none;
+        }
+        a .btnleiamais{
+           padding-top:-25px;
+        }
+        .textefeito, .textreco, .textdesc{
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+    <img src="cogumelouco2.png" width="1300px" alt="logo">
+   </header>
+   <!-- <div class="type">
+        <label><strong>Tipo da espécie: </strong></label>
+        <select type="number" name="tipo" class="inputipo" width="10%">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+   </div> -->
+   <main>
+      <div id="apresenta">
+        <h2>Apresentação</h2>
+            <p>
+                A partir do divino em nós mesmos é mostrado que estamos conectados com o universo e somos unidade com tudo que existe. 
+                É uma experiência muito valiosa que nos permite olhar para essa vida e pro mundo com uma mente muito diferente e aberta pra desconstrução e construção do que fizer sentido pra consciência, dentro do mais íntimo da nosso ser<span id="pontos">...</span>
+                <span id="mais">
+               
+                A autobiografia e as informações factuais são separadas da noção de identidade, a
+                pergunta "quem sou eu?" parece não ter uma resposta concreta, é um sentir abstrato que vem de ser e estar sendo. 
+                A integração do ser é algo que não pode ser expresso em palavras. Para integrá-lo à sua vida é preciso estar presente e deixar este "eu", significaria que o sentimento que você tem sobre si mesmo, a ideia de ser um "indivíduo", desaparece completamente. e consequentemente o abandono por esta complexa mistura de desejos, medos, pensamentos, e aquilo que me apego porque me dá uma sensação de certeza, de reconhecimento e ao mesmo tempo de causa de tanto sofrimento.
+                é o ego que impede a experiência da verdadeira autoconsciência. 
+                <br>
+                A maneira como você encara a morte determina como você vê a vida. 
+                A morte é vista como uma fase de transição na qual você volta ao seu estado original como parte do todo. A aceitação da única certeza que temos na vida, a morte do ego(conhecido como eu) ou dissolução do ego propõe uma boa experiência.
+                <br>
+                com a aceitação da morte física antes de acontecer percebo que estou colhendo os frutos, e agora planto sementes que farão minha paz crescer com a morte enquanto vivo uma vida mais leve, feliz e com amor
+             </span>
+            </p>
+            <a onclick="leiamais()" id="btnleiamais" href="#">leia mais</a>
+        </div>    <br>
+
+        <h3><a id="usolink" href="uso.html">
+            Orientações de uso</a></h3>
+       
+
+
+            <section id="setas">
+
+                <h2 id="h2desc" onclick="mostrardesc()">
+                    Descrição<img class="setadesc" src="setabxo.png" width="22px">
+                               
+                </h2>
+                <div class="textdesc">
+                        <p> 
+                            Os efeitos dos cogumelos estão associados a condições piscológicas e emocinais do consumidor assim como também é importante o contexto em que o consumo se verifica
+                            <br><br>
+                            
+                            A psilocibina é um alucinógeno que altera a reação e do cérebro devido a uma substância chamada serotonina. Quando decomposta pelo fígado, ela causa um estado alterado de consciência e (auto)percepção nos usuários.span<span>leia mais</span><br>
+                            
+                            Demonstraram que a psilocibina aparentemente reduz a atividade do córtex pré-frontal medial, uma área do cérebro que ajuda a regular uma série de funções cognitivas, incluindo a atenção, o controle da inibição, os hábitos e a memória. O composto também reduz as conexões entre essa região e 
+                            o córtex cingulado posterior, que pode participar da regulagem da memória e das emoções.
+                            <br><br>
+                            Os efeitos começam a surgir entre 25 e 35 minutos após a ingestão e podem durar até 6 horas.<br><br>
+                           
+                            O consumidor poderá sentir o aumento da sensibilidade perceptiva, ou seja, cores mais intensas e percepção aprimorada em detalhes com distorções visuais e sinestesia, que seria a misturia de sensações onde sons teriam cor e cores teriam sons, acompanhadas de uma grande euforia, uma sensação de bem estar e o aumento da autoconfiança, além de grande instrospecçao e um possível aumento do prazer e líbido sexual<br><BR>
+                              
+                            -Os efeitos podem variar para menor ou maior de acordo com a quantia usada, com a sensibilidade de cada pessoa, com as substâncias ingeridas e com o estado psicológico da pessoa no momento, principalmente se a pessoa é portadora de algum transtorno psiquiátrico em que o uso da piloscibina está em <a href="uso.html #restri">restrição</a>.
+                                <br><br>
+                                Como qualquer outro tratamento os riscos dos cogumelos não se insentam, porém usado com instruções qualificadas é considerado por cientistas mais seguro  e eficaz do que o tratamento com rémedios laboratoriais.
+
+                        </p>
+                
+                    </div>  
+    
+                    <h2 id="h2reco" onclick="mostrareco()">
+                        Recomendações <img class="setadesc" src="setabxo.png" width="22px">
+                    </h2>
+
+                     <div class="textreco">
+                        <strong>-Se você não quer encarar seus demônios e sabe que eles existem, é melhor ficar longe dos cogumelos.</strong>
+                       <p>
+                        Eficaz contra doenças e transtornos como depressão, ansiedade, DDA/TDAH, compulsões e vícios(cigarro,etc), pois podem aumentar a neuroplasticidade do cérebro, tirando as falsas crenças limitantes de onde surge inseguranças na vida.
+
+<br>
+                        Diminuição e eficácia contra sintomas de doenças e distúrbios, como: <br>
+
+                        Depressão, ansiedade, DDA/TDAH hiperatividade, distúrbios de humor, transtorno de Estresse Pós-Traumático, compulsões e vícios(cigarro,etc).<br><br>
+
+
+                        Em geral, os usuários relatam cinco principais benefícios com esse tratamento:<br>
+
+                        -Físico, emocional, criativo, sensorial, espiritual.<br>
+
+                        E em comparação os oferecem menos danos a saúde, maiores resutados, menos tempo e maior qualidadee ficácia começando pelos efeitos:<br>
+
+                        <br>
+                            <h4>Em comparação com rémedios laboratóriais:</h4>
+                            <strong>1º Efeito</strong><br>
+                            -esse efeito te permite expandir suas emoções e sentimentos e aceitar, enquanto os remédios adormecem o sentir deixando os pacientes, muitas vezes, apáticos.
+                            <br><br>
+        
+                            <strong>2º Efeito </strong> <br>
+                            -há o encontro de quem se é no presente sem depêndecia química pois é mostrado que o encontro de si mesmo no aqui e agora é tudo o que precisamos
+        
+                            <br><br> 
+                            <strong>3º Efeito</strong><br>
+                            -é uma experiência orgânica que transforma em uma quantidade muito menor de uso continuado, os resultados são obtidos em menor tempo, com menos riscos(apenas para pessoas mentalmente saudáveis sem vulnerabilidades a transtornos de personalidade, ezquizofrênia, bipolaridade e psicose) e por ser natural é reconhecido pelo organismo com mais qualidade e eficácia, e menos efeitos colaterais.
+                      
+                            <br>
+                            <br>
+                            É recomendado que se responsabilize e faça o uso consciente dos efeitos e das instruções<br><br>
+                            Não recomendado:<br>
+                             Para menor de idade
+                             <br>
+                             Pessoas com vulnerabilidades a trantornos de ezquizofrenia, psicose, bipolaridade,  síndrome do pânico e transtorno de personalidade<br>
+                             Fazer o uso sem estar consciente dos efeitos
+                             Ingerir alta quantidade na primeira vez
+                          
+
+                           <br><br>
+                             Cada pessoa possui um tipo de organismo que tem uma reação e experiência diferente do outro, entretanto a primeira vez é recomendado que comece com microdose para conhecer aos poucos como o cogumelo funciona no seu organismo
+                        </p>
+                    </div> 
+            </section>
+                   
+        <h2 id="h2efeito" onclick="mostrarefeito()">Efeito das fases
+            <img class="setaefeito" src="setabxo.png" width="22px">
+           
+        </h2>
+    <div class="textefeito">
+        <p>
+            As primeiras reações são físicas é comum ter naúseas, dilatações da púpila, aumento do pulso, da pressão sanguínea e dependendo do caso até mesmo da temperatura, se ocorrer ansiedade de vertigem deve permanecer assim por uma hora<br><br>
+            
+            Aumento na intensidade de sensações ou estados, como:<br>
+
+            Criatividade, energia, produtividade e foco, melhora nas relações e aumento da empatia, desenvolvimento da habilidade de liderança, coordenação atlética e energia;<br>
+
+            Seja para ansiedade em pacientes com câncer, depressão, compulsões como o tabagismo ou mesmo experiências mais místicas.<br><br>
+
+            <h3>Fases da experiência</h3> 
+            <strong>1-Efeito anti-zumbi:</strong><br>
+            O indivíduo se sente mais vivo, conectado com seus sentimentos e com o mundo externo, percebe pela sua subjetividade o sentir(abrangido extrasensorialmente) a verdade e clareza sobre sua vida e o mundo externo em que vive, o despertar
+                        <br><br>
+            <strong>2-Efeito da sensação a respeito de si próprio:</strong><br>
+            a percepção da imensidão infinita do universo leva o inidivíduo ao vazio existêncial e ao questionamento do eu, ocorrendo a morte do ego e o conhecimento e percepção do eu verdadeiro que se é, o ser
+                        <br><br>
+            <strong>3-Efeito iluminação:</strong><br>
+            Na apreciação de estar sendo o ser sempre no presente, nasce uma luz que toma consciência dando clareza e iluminando as trevas, acolhendo, mudando e sobre o que não pode ser mudado há a aceitação e amor pelas sombras que fazem parte de quem se é, alcançando a iluminação de ser livre.
+            Após a morte do ego o renascimento acontece, o ego é aprimorado e desenvolvido atráves do processo de evolução a partir do ser com a consciência de quem se é.
+       </p>
+    </div>  
+   </main>   
+
+</body>
+
+<footer>
+    <p>CopyRigth &copy; 2023 - by giuli<br>
+         <a href="#" target="blank"> <img src="Martz90-Circle-Instagram.512 (1).png" width="25px" alt=""></a>   <a href="#" target="blank"><img src="Martz90-Circle-Whatsapp.512.png" width="25px"></a>        
+   </p>
+</footer>
+
+</html>
+
+
+
+
+
+
+
+

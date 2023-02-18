@@ -1,0 +1,322 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto Mono', monospace;
+    background:rgba(255, 49, 203, 0.863);
+}
+
+header{
+    background: rgb(168, 255, 29);
+}
+.type{
+    text-align: center;
+    margin-top:10px;
+}
+.type label{
+    font-size: 28px;
+    color:rgb(0, 0, 107);
+}
+.type select{
+    width:30px;
+    padding-top:9px;
+    border:1px double rgb(53, 93, 252);
+    background:rgba(1, 60, 255, 0.445);
+
+}
+main{
+    margin:0 40px 40px 40px;
+}
+#apresenta p{
+   text-align: center;
+   color:white;
+   font-size:20px;
+}
+#apresenta a{
+    text-decoration:none;
+    color:rgb(16, 18, 114);
+    margin:20px;
+}
+#btnleiamais:hover,#btnleiamais:active {
+       color:rgb(74, 12, 155);
+}
+#usolink{
+    font-size:25px;
+    text-decoration: none;
+    color:rgb(58, 60, 184); 
+}
+#usolink:visited{
+    color:rgb(74, 12, 155);
+}
+#usolink:hover{
+    color:#2756af;
+}
+#setas{
+    margin:40px 0 10px 0;
+}
+
+#setas h2{
+    cursor:pointer;
+}
+#setas p{
+    margin-left:20px;
+    font-size: 18px;
+}
+#h2efeito, #h2reco, #h2desc{
+    border:1px solid rgb(11, 37, 169);
+    border-radius: 8px;
+    padding:0 2px 0 8px;
+    background-color: white;
+}
+
+#h2efeito{
+    width: 270px;
+}
+
+#h2reco{
+    width: 228px;
+}
+#h2desc{
+    width:155px;
+}
+#descricao .title{
+    width: 27%;
+}
+
+footer{
+    text-align: center;
+    background:#75a5fd;
+    padding:3px;
+}
+
+@media(max-width:480px){
+    body{
+        width: 100%;
+    }    
+    header img{
+            width: 100%;
+        }
+        #h2trata{
+            width:338px;
+        }
+            #usolink{
+             margin-left:-15px;
+             /* width: 130%; */
+            }
+            #setas h2{
+                margin-left:-20px;
+            }
+            #apresenta a{
+                font-size:17px;
+            }
+            #h2efeito{
+                margin-left:-20px;
+            }
+         
+}
+
+
+
+/* PAGINA 2-USO */
+#body{
+    background: greenyellow;
+}
+main{
+    margin-left:35px;
+}
+.title{
+padding:0  0 5px 15px;
+background: #c734ec;
+border-radius: 4px;
+}
+.title:hover{
+    color:greenyellow;
+}
+.title:active{
+    color:#c734ec;
+}
+
+#bestexp .title{
+    font-size:20px;
+    background-color: rgb(255, 241, 241);
+    width: 93%;
+    cursor: pointer;
+}
+#bestexp img{
+    padding-top:8px;
+    margin-bottom:-10px;
+}
+#bestexp p{
+    text-align:justify;
+    margin-right: 99px;
+}
+#textexp p{
+    margin-left: 20px;
+}
+
+.guia a{
+    /* text-decoration: none;  */
+    color:#f71313;
+    font-size:20px;
+    
+}
+
+#modouso .title{
+    height: 5px;;
+    margin-top: 0px;
+    text-align: center;
+    background:none;
+   margin-left: 20%;
+   color:rgb(105, 105, 255);
+   padding-bottom:29px;
+   margin:0 auto;
+}
+
+#modouso table th{
+background:#194e7a;
+color:rgb(216, 216, 216);
+padding:2px 0 2px 0;
+}
+#modouso table td{
+    padding: 2px 3px 4px 5px;
+}
+#modouso table{
+    border:none;
+    background:rgba(232, 236, 19, 0.479);
+    font-size:15px;
+}
+
+
+#fracao a{
+text-decoration: none;
+border-bottom:1px solid black;
+color: #192ff8;
+}
+.tfracao tr{
+    background: #3c47ad8c; 
+
+}
+.tbdtitle{
+    background: #22256e;
+    color:whitesmoke;
+}
+
+#fracao table{ 
+    border:none;
+margin:20px 0px 20px 30px;
+}
+#fracao tfoot{
+    font-size:13px;
+}
+
+#ndose .title{
+    width: 30%;
+    cursor:pointer;
+    margin-bottom:5px;
+    padding-top:2px;
+}
+#ndose {
+    margin-bottom:-90px;
+}
+
+#ndose table{
+    border:none;
+    font-size:14px;
+}
+#ndose table tr{
+    background:rgba(178, 211, 255, 0.336);
+    padding: 2px 0 2px 5px;
+}
+#ndose table th{
+    background:rgb(8, 207, 164);
+}
+
+#indicacao .title{
+    width: 25%;
+    cursor:pointer;
+    padding-top:2px;
+}
+#restri .title{
+    width: 20%;
+    cursor:pointer;
+    padding-top:2px;
+}
+#restri p{
+    font-size: 14px;
+}
+#links .title{
+    width: 20%;
+    background:rgb(8, 207, 164);
+    cursor:pointer;
+    padding-top:2px;
+}
+#link{
+    font-size:15px;
+}
+
+
+/* MOBILE */
+@media(max-width:480px){
+#body{
+    width:110%;
+}
+#bestexp h2{
+margin-left:-15px;
+}
+#modouso{
+    width:0 auto;
+    margin-left:-15px;
+}
+#modouso .title{
+    text-align: left;
+    margin: 25px 0 0 -15px;
+}
+#ndose .title{
+    margin-top:25px;
+    width:60%;
+}         
+#indicacao .title{
+    margin-top:5px;
+    width: 50%;
+}
+#indicacao p{
+margin-top: -11px;
+}
+#restri .title{
+    margin-top:-5px;
+    width: 40%;
+}
+#restri h5{
+    margin-top: -11px; 
+}
+#restri p{
+    margin: -8px 8px 22px 0;
+}
+
+#links .title{
+    margin:-5px 0 7px 0;
+    width: 56%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
