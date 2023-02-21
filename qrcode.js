@@ -12,7 +12,7 @@ function leiamais(){
     }else{
         mais.style.display = 'none';
         pontos.style.display = 'inline';
-        leiaMais.innerHTML= 'leia mais';
+        leiaMais.innerHTML= 'ler mais';
     }
 }
 
