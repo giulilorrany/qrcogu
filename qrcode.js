@@ -8,7 +8,7 @@ function leiamais(){
     if(mais.style.display == "none"){
         mais.style.display = 'inline';
         pontos.style.display = 'none';
-        leiaMais.innerHTML= 'leia menos';
+        leiaMais.innerHTML= 'ler menos';
     }else{
         mais.style.display = 'none';
         pontos.style.display = 'inline';
