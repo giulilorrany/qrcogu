@@ -27,9 +27,9 @@ main{
     margin:0 40px 40px 40px;
 }
 #apresenta p{
-   text-align: center;
+   text-align: justify;
    color:white;
-   font-size:20px;
+   font-size:18px;
 }
 #apresenta a{
     text-decoration:none;
