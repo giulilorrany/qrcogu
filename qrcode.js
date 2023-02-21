@@ -8,11 +8,11 @@ function leiamais(){
     if(mais.style.display == "none"){
         mais.style.display = 'inline';
         pontos.style.display = 'none';
-        leiaMais.innerHTML= 'ler menos';
+        leiaMais.innerHTML= 'leia menos';
     }else{
         mais.style.display = 'none';
         pontos.style.display = 'inline';
-        leiaMais.innerHTML= 'ler mais';
+        leiaMais.innerHTML= 'leia mais';
     }
 }
 
